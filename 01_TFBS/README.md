@@ -2,7 +2,8 @@
 
 #### Search and install the genome
 
-#search```
+```
+#search
 genomepy search gigas
 
 #install
