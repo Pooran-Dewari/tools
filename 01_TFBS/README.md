@@ -9,7 +9,7 @@ genomepy search gigas
 #install
 genomepy install --annotation cgigas_uk_roslin_v1
 ```
-#### Extract longest CDS in bed format using a gff3 file
+#### Extract longest CDS per gene in bed format using a gff3 file
 ```
 library(tidyverse)
 # Aim: extract longest cds in bed format using gff3 file for gimme TFBS analysis
