@@ -107,6 +107,11 @@ for (i in 0:(num_clusters - 1)) {
 ```
 
 #### use the file above for gimme motifs de novo tfbs analysis
+main command is **gimme motifs**  
+first argument cluster_1_prom.bed is **INPUT**  
+second argument cluster_1_prom is **OUTIDR**  
+-g is the genome fasta file
+
 ```
 gimme motifs cluster_1_prom.bed cluster_1_prom --denovo -g ../Documents/parse/Crassostrea_gigas_uk_roslin_v1.dna_sm.primary_assembly.fa
 ```
