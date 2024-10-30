@@ -13,6 +13,7 @@ genomepy install --annotation cgigas_uk_roslin_v1
 ```
 library(tidyverse)
 # Aim: extract longest cds in bed format using gff3 file for gimme TFBS analysis
+
 # read gff3 file
 gff <- read_tsv("Crassostrea_gigas.cgigas_uk_roslin_v1.59.chr.gff3", comment = "#", col_names = F) 
 
